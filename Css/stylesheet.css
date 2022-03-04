@@ -43,3 +43,35 @@ a{
 #slider{
     width: 100%;
 }
+
+.our-story h2{
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.our-story p{
+    font-size: 1rem;
+    text-align: justify;
+    color: #323232;
+    letter-spacing: 1px;
+    line-height: 2rem;
+}
+
+@media (max-width: 768px){
+    #signup{
+        width: 100%!important;
+        margin-right: 0;
+    }
+    #login{
+        width: 100%;
+        margin-left: 0!important;
+        margin-top: 0!important;
+    }
+    #nav{
+        padding: .5rem!important;
+    }
+    .desktop-pic{
+        width: 100%;
+    }
+}
+
