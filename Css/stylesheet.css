@@ -55,8 +55,28 @@ a{
     color: #323232;
     letter-spacing: 1px;
     line-height: 2rem;
+    
 }
 
+h4{
+    color: yellow;
+}
+.study-us .card{
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    border: none;
+    background: url("../img/3.jpg") center center no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.study-us .card button{
+    position: absolute;
+    bottom: 0;
+    left: 12%;
+}
 @media (max-width: 768px){
     #signup{
         width: 100%!important;
